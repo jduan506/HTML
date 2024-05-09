@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="signupapp.css">
+    </head>
+    <body>
+        <h1>Group project signup</h1>
+        <div id="signupform">
+      
+        <h2>signup</h2>
+        <p>Enter your sign-up details here</p>
+        <form action="/submitGroup">
+            <label for="numberofstudents">Number of Students:</label>
+            <input type="number" id="numberofstudents" min=1 max=4><br>
+
+            <label for="student1"> Student 1: </label>
+            <input type="number" id="student1"><br>
+
+            <label for="student2"> Student 2: </label>
+            <input type="number" id="student2"><br>
+            <label for="student3"> Student 3: </label>
+            <input type="number" id="student3"><br>
+            <label for="student4"> Student 4: </label>
+            <input type="number" id="student4">
+            <br>
+            <input type="submit">
+        
+        </form>
+              
+    </div>
+    
+    <div id="existingGroups">
+        <h2>existing group</h2>
+        <table border="2">
+            <tr>
+                <th>GroupID</th>
+                <th>student1</th>
+                <th>student2</th>
+                <th>student3</th>
+                <th>student4</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>student1</td>
+                <td>student2</td>
+                <td>student3</td>
+                <td>student4</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>student1</td>
+                <td>student2</td>
+                <td>student3</td>
+                <td>student4</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>student1</td>
+                <td>student2</td>
+                <td>student3</td>
+                <td>student4</td>
+            </tr>
+
+            
+        </table>
+    </div>
+
+    </body>
+</html>
